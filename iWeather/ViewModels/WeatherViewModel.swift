@@ -23,10 +23,6 @@ enum LoadState: Equatable {
     
     func getCurrentWeather(for city: String) async {
         weatherState = .loading
-        
-        self.weather = load("weather.json")
-        weatherState = .success
-        
         let result = await NetworkManager.shared.getCurrentWeather(of: city)
         switch result {
         case .success(let weather):
@@ -39,10 +35,6 @@ enum LoadState: Equatable {
     
     func getForecast(for city: String) async {
         forecastState = .loading
-        
-        self.forecast = load("forecast.json")
-        forecastState = .success
-        
         let result = await NetworkManager.shared.getForecast(of: city)
         forecastState = .success
         switch result {
