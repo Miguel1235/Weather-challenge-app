@@ -1,4 +1,4 @@
-# :sun_behind_small_cloud: Weather Dashbaord app
+# :sun_behind_small_cloud: Weather Dashboard app
 
 ## Description
 
