@@ -6,16 +6,16 @@ This app is used to fetch the current weather and forecast of different cities a
 
 ## :nerd_face: Instructions
 
-1. Download `Xcode`
-2. Open the proyect
-3. Load your own api key on the variable `let apiKey = "YOUR_OPENWEATHERMAP_API_KEY_GOES_HERE"` on the file named `iWeather/iWeather/Managers/NetworkManager.swift`
+1. Download and Install `Xcode`
+2. Open the project
+3. Load your own api key on the variable `let apiKey = "YOUR_OPENWEATHERMAP_API_KEY_GOES_HERE"` on the file named `iWeather/Managers/NetworkManager.swift`
 4. Click on the play button on xcode
 5. Enjoy
 
 ## :man_scientist: Testing
 
-- Open the file `iWeather/iWeatherTests/iWeatherTests.swift` and on left side and click on the play button to run the tests.
-- Open the file `iWeather/iWeatherUITests/iWeatherUITests.swift` and on the left side click the play button.
+- Open the file `iWeatherTests/iWeatherTests.swift` and on left side on each function click on the play button to run the tests.
+- Open the file `iWeatherUITests/iWeatherUITests.swift` and on the left side on each function click the play button.
 
 ## :film_projector: Video demo
 
